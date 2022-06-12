@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <row>
+    <name>Mercadona</name>
+    <address>Urkixo Zumarkalea, 85, 48013 Bilbo, Bizkaia</address>
+    <geolocation>53.339688, -6.236688</geolocation>
+    <sales>
+      <id>discount20</id>
+      <validityPeriod>2022-06-30</validityPeriod>
+      <description>20% off</description>
+      <discount>20</discount>
+    </sales>
+    <sales>
+      <id>discount30</id>
+      <validityPeriod>2022-06-30</validityPeriod>
+      <description>30% off</description>
+      <discount>30</discount>
+    </sales>
+    <sales>
+      <id>discount50</id>
+      <validityPeriod>2022-06-30</validityPeriod>
+      <description>50% off</description>
+      <discount>50</discount>
+    </sales>
+    <products>
+      <product>oranges</product>
+      <usuallyBought>true</usuallyBought>
+      <section>veggies &amp; fruits</section>
+      <brand/>
+      <price>1.5</price>
+      <currency>€</currency>
+      <isBought>false</isBought>
+      <quantity>3</quantity>
+      <measurement>kg</measurement>
+      <sale>discount20</sale>
+    </products>
+    <products>
+      <product>washing machine detergent</product>
+      <usuallyBought>false</usuallyBought>
+      <section>home clean</section>
+      <brand>ariel</brand>
+      <price>12</price>
+      <currency>€</currency>
+      <isBought>false</isBought>
+      <quantity>1</quantity>
+      <measurement>U</measurement>
+      <sale>discount30</sale>
+    </products>
+    <products>
+      <product>cashew nuts</product>
+      <usuallyBought>true</usuallyBought>
+      <section>feeding</section>
+      <brand>medina</brand>
+      <price>1.95</price>
+      <currency>€</currency>
+      <isBought>false</isBought>
+      <quantity>6</quantity>
+      <measurement>U</measurement>
+      <sale>discount50</sale>
+    </products>
+    <products>
+      <product>shampoo</product>
+      <usuallyBought>false</usuallyBought>
+      <section>hygiene</section>
+      <brand>tresemme</brand>
+      <price>3.5</price>
+      <currency>€</currency>
+      <isBought>false</isBought>
+      <quantity>3</quantity>
+      <measurement>U</measurement>
+      <sale/>
+    </products>
+  </row>
+  <row>
+    <name>Lidl</name>
+    <address>C. Jon Arrospide Kalea, 30, 48014 Bilbao, Biscay</address>
+    <geolocation>53.339688, -6.236688</geolocation>
+    <sales>
+      <id>discount70</id>
+      <validityPeriod>2022-06-30</validityPeriod>
+      <description>70% in the 2nd unit</description>
+      <discount>35</discount>
+    </sales>
+    <sales>
+      <id>offer1</id>
+      <validityPeriod>2022-06-30</validityPeriod>
+      <description>3x2</description>
+      <discount>25</discount>
+    </sales>
+    <products>
+      <product>apples</product>
+      <usuallyBought>true</usuallyBought>
+      <section>veggies &amp; fruits</section>
+      <brand/>
+      <price>0.99</price>
+      <currency>€</currency>
+      <isBought>false</isBought>
+      <quantity>2</quantity>
+      <measurement>U</measurement>
+      <sale/>
+    </products>
+    <products>
+      <product>Red pepper</product>
+      <usuallyBought>true</usuallyBought>
+      <section>veggies &amp; fruits</section>
+      <brand/>
+      <price>1.75</price>
+      <currency>€</currency>
+      <isBought>false</isBought>
+      <quantity>2</quantity>
+      <measurement>U</measurement>
+      <sale/>
+    </products>
+    <products>
+      <product>green pepper</product>
+      <usuallyBought>true</usuallyBought>
+      <section>veggies &amp; fruits</section>
+      <brand/>
+      <price>1.95</price>
+      <currency>€</currency>
+      <isBought>false</isBought>
+      <quantity>4</quantity>
+      <measurement>U</measurement>
+      <sale/>
+    </products>
+    <products>
+      <product>chai tea</product>
+      <usuallyBought>false</usuallyBought>
+      <section>tea, coffee and infusions</section>
+      <brand>hornimans</brand>
+      <price>2.25</price>
+      <currency>€</currency>
+      <isBought>false</isBought>
+      <quantity>3</quantity>
+      <measurement>U</measurement>
+      <sale>offer1</sale>
+    </products>
+    <products>
+      <product>coffee onyx</product>
+      <usuallyBought>false</usuallyBought>
+      <section>tea, coffee and infusions</section>
+      <brand>l&#x27;or</brand>
+      <price>3.25</price>
+      <currency>€</currency>
+      <isBought>false</isBought>
+      <quantity>4</quantity>
+      <measurement>U</measurement>
+      <sale>discount70</sale>
+    </products>
+  </row>
+  <row>
+    <name>Eroski</name>
+    <address>C. Islas Canarias, 47, Bajo, 48015 Bilbao, Biscay</address>
+    <geolocation>53.339688, -6.236688</geolocation>
+    <sales>
+      <id>discount20</id>
+      <validityPeriod>2022-06-30</validityPeriod>
+      <description>about to expire</description>
+      <discount>20</discount>
+    </sales>
+    <products>
+      <product>seabass</product>
+      <usuallyBought>false</usuallyBought>
+      <section>fish</section>
+      <brand/>
+      <price>6.5</price>
+      <currency>€</currency>
+      <isBought>false</isBought>
+      <quantity>600</quantity>
+      <measurement>gr</measurement>
+      <sale/>
+    </products>
+    <products>
+      <product>salmon</product>
+      <usuallyBought>true</usuallyBought>
+      <section>fish</section>
+      <brand/>
+      <price>13.5</price>
+      <currency>€</currency>
+      <isBought>false</isBought>
+      <quantity>1500</quantity>
+      <measurement>gr</measurement>
+      <sale/>
+    </products>
+    <products>
+      <product>cod</product>
+      <usuallyBought>true</usuallyBought>
+      <section>fish</section>
+      <brand/>
+      <price>1.5</price>
+      <currency>€</currency>
+      <isBought>false</isBought>
+      <quantity>400</quantity>
+      <measurement>gr</measurement>
+      <sale/>
+    </products>
+    <products>
+      <product>hummus</product>
+      <usuallyBought>true</usuallyBought>
+      <section>fish</section>
+      <brand/>
+      <price>1.5</price>
+      <currency>€</currency>
+      <isBought>false</isBought>
+      <quantity>2</quantity>
+      <measurement>U</measurement>
+      <sale>discount20</sale>
+    </products>
+  </row>
+</root>

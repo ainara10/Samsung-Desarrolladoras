@@ -1,0 +1,224 @@
+[
+    {
+      "name": "Mercadona",
+      "address": "Urkixo Zumarkalea, 85, 48013 Bilbo, Bizkaia",
+      "geolocation":"53.339688, -6.236688",
+      "sales": [
+        {
+          "id": "discount20",
+          "validityPeriod": "2022-06-30",
+          "description": "20% off",
+          "discount": 20
+        },
+        {
+          "id": "discount30",
+          "validityPeriod": "2022-06-30",
+          "description": "30% off",
+          "discount": 30
+        },
+        {
+          "id": "discount50",
+          "validityPeriod": "2022-06-30",
+          "description": "50% off",
+          "discount": 50
+        }
+      ],
+      "products": [
+        {
+          "product": "oranges",
+          "usuallyBought": true,
+          "section": "veggies & fruits",
+          "brand":null,
+          "price": 1.5,
+          "currency": "€",
+          "isBought": false,
+          "quantity": 3,
+          "measurement": "kg",
+          "sale": "discount20"
+        },
+        {
+          "product": "washing machine detergent",
+          "usuallyBought": false,
+          "section": "home clean",
+          "brand":"ariel",
+          "price": 12,
+          "currency": "€",
+          "isBought": false,
+          "quantity": 1,
+          "measurement": "U",
+          "sale": "discount30"
+        },
+        {
+          "product": "cashew nuts",
+          "usuallyBought": true,
+          "section": "feeding",
+          "brand":"medina",
+          "price": 1.95,
+          "currency": "€",
+          "isBought": false,
+          "quantity": 6,
+          "measurement": "U",
+          "sale": "discount50"
+        },
+        {
+          "product": "shampoo",
+          "usuallyBought": false,
+          "section": "hygiene",
+          "brand":"tresemme",
+          "price": 3.5,
+          "currency": "€",
+          "isBought": false,
+          "quantity": 3,
+          "measurement": "U",
+          "sale": null
+        }
+      ]
+    },
+    {
+      "name": "Lidl",
+      "address": "C. Jon Arrospide Kalea, 30, 48014 Bilbao, Biscay",
+      "geolocation":"53.339688, -6.236688",
+      "sales": [
+        {
+          "id": "discount70",
+          "validityPeriod": "2022-06-30",
+          "description": "70% in the 2nd unit",
+          "discount": 35
+        },
+        {
+          "id": "offer1",
+          "validityPeriod": "2022-06-30",
+          "description": "3x2",
+          "discount": 25
+        }
+      ],
+      "products": [
+        {
+          "product": "apples",
+          "usuallyBought": true,
+          "section": "veggies & fruits",
+          "brand":null,
+          "price": 0.99,
+          "currency": "€",
+          "isBought": false,
+          "quantity": 2,
+          "measurement": "U",
+          "sale": null
+        },
+        {
+          "product": "Red pepper",
+          "usuallyBought": true,
+          "section": "veggies & fruits",
+          "brand":null,
+          "price": 1.75,
+          "currency": "€",
+          "isBought": false,
+          "quantity": 2,
+          "measurement": "U",
+          "sale": null
+        },
+        {
+          "product": "green pepper",
+          "usuallyBought": true,
+          "section": "veggies & fruits",
+          "brand":null,
+          "price": 1.95,
+          "currency": "€",
+          "isBought": false,
+          "quantity": 4,
+          "measurement": "U",
+          "sale": null
+        }
+        ,
+        {
+          "product": "chai tea",
+          "usuallyBought": false,
+          "section": "tea, coffee and infusions",
+          "brand":"hornimans",
+          "price": 2.25,
+          "currency": "€",
+          "isBought": false,
+          "quantity": 3,
+          "measurement": "U",
+          "sale": "offer1"
+        }
+        ,
+        {
+          "product": "coffee onyx",
+          "usuallyBought": false,
+          "section": "tea, coffee and infusions",
+          "brand":"l'or",
+          "price": 3.25,
+          "currency": "€",
+          "isBought": false,
+          "quantity": 4,
+          "measurement": "U",
+          "sale": "discount70"
+        }
+      ]
+    },
+    {
+      "name": "Eroski",
+      "address": "C. Islas Canarias, 47, Bajo, 48015 Bilbao, Biscay",
+      "geolocation":"53.339688, -6.236688",
+      "sales": [
+        {
+          "id": "discount20",
+          "validityPeriod": "2022-06-30",
+          "description": "about to expire",
+          "discount": 20
+        }
+       
+      ],
+      "products": [
+        {
+          "product": "seabass",
+          "usuallyBought": false,
+          "section": "fish",
+          "brand":null,
+          "price": 6.5,
+          "currency": "€",
+          "isBought": false,
+          "quantity": 600,
+          "measurement": "gr",
+          "sale": null
+        },
+        {
+          "product": "salmon",
+          "usuallyBought": true,
+          "section": "fish",
+          "brand":null,
+          "price": 13.5,
+          "currency": "€",
+          "isBought": false,
+          "quantity": 1500,
+          "measurement": "gr",
+          "sale": null
+        },
+        {
+          "product": "cod",
+          "usuallyBought": true,
+          "section": "fish",
+          "brand":null,
+          "price": 1.5,
+          "currency": "€",
+          "isBought": false,
+          "quantity": 400,
+          "measurement": "gr",
+          "sale": null
+        },
+        {
+          "product": "hummus",
+          "usuallyBought": true,
+          "section": "fish",
+          "brand":null,
+          "price": 1.5,
+          "currency": "€",
+          "isBought": false,
+          "quantity": 2,
+          "measurement": "U",
+          "sale": "discount20"
+        }
+      ]
+    }
+  ]
